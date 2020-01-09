@@ -20,6 +20,19 @@
   </footer>
 </template>
 
+<page-query>
+query {
+  content: footer {
+    edges {
+      node {
+        id
+        title
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 export default {
   name: "Footer",
