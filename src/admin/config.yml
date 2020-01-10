@@ -6,16 +6,23 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-  - label: "Sections"
-    name: "sections"
+  - label: "Sitewide Options"
+    name: options
+    editor:
+      preview: false
     files:
-      - label: "About "
-        name: "about"
+      - label: "Navigation Menu"
+        name: nav
+        file: "nav.yml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
+          - label: "Nav Items"
+            label_singular: "Nav Item"
+            name: topLevelItems
             widget: list
             fields:
-              - {label: Intro, name: intro, widget: text}
+              - {label: "Display Text", name: displayText, widget: string}
+              - {label: URL, name: url, widget: string}
+              - label: "Item Type"
+                name: itemType
+                widget: select
+                options: ["Link", "Button"]
