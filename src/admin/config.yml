@@ -13,7 +13,7 @@ collections:
     files:
       - label: "Navigation Menu"
         name: nav
-        file: "nav.yml"
+        file: "admin/nav.yml"
         fields:
           - label: "Nav Items"
             label_singular: "Nav Item"
