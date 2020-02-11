@@ -1,5 +1,5 @@
 <template>
-    <section id="contact">
+  <section class="section" id="contact">
     <div class="section-heading">
       <h2>Let's Chat</h2>
     </div>
@@ -48,18 +48,24 @@
         </div>
       </form>
     </div>
+    <Footer />
   </section>
 </template>
 
 <script>
-    export default {
-        name: 'Contact'
-    }
+import Footer from '~/components/Footer.vue';
+
+export default {
+  name: 'Contact',
+  components: {
+    Footer
+  }
+};
 </script>
 
 <style lang="scss" scoped>
 .relocate {
-  text-align: center;
+  //text-align: center;
   margin-bottom: 3rem;
   margin-right: auto;
   margin-left: auto;
@@ -72,9 +78,9 @@
 }
 
 .form-wrapper {
-  width: 55%;
-  max-width: 42rem;
-  margin: auto;
+  //width: 55%;
+  //max-width: 42rem;
+  //margin: auto;
   padding-bottom: 5rem;
   @media only screen and (max-width: 600px) {
     width: 90%;
@@ -118,7 +124,8 @@ form {
   }
   .button-wrapper {
     display: flex;
-    justify-content: center;
+    margin: auto;
+    width: 90%;
   }
   button {
     width: 11rem;

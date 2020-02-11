@@ -1,5 +1,5 @@
 <template>
-    <section id="projects" class="projects">
+    <section id="projects" class="projects section">
     <div class="section-heading">
       <h2>My Latest Projects</h2>
     </div>
@@ -189,6 +189,7 @@
 .projects {
   background-color: #212121;
   padding-bottom: 3rem;
+  overflow: scroll;
 }
 
 a {
@@ -269,6 +270,7 @@ a {
 }
 
 .projects_container {
+  overflow: scroll;
   display: grid;
   padding-left: 1rem;
   padding-right: 1rem;

@@ -1,5 +1,5 @@
 <template>
-  <section class="about-me" id="about">
+  <section class="about-me section" id="about">
     <div class="about-me-content">
       <div class="section-heading">
         <h2>About Me</h2>
@@ -90,7 +90,7 @@ export default {
 }
 
 .profile-img {
-  width: 100%;
+  width: 60vh;
   border-radius: 15px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <header class="header">
+    <header class="header section">
         <figure class="mobile-menu">
           <img
             onClick={this.toggleMenu}
