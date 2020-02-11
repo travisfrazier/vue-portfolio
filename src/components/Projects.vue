@@ -1,12 +1,17 @@
 <template>
     <section id="projects" class="projects">
-    <h2>My Latest Projects</h2>
+    <div class="section-heading">
+      <h2>My Latest Projects</h2>
+    </div>
     <p class="project-disclaimer">
       *Projects below were built by me without the use of jQuery. Hover each for
       a description. They are fully responsive with media queries.
     </p>
     <div class="projects_container">
-      <div class="project project-two">
+      <div 
+        data-aos="fade-right" 
+        class="project project-two"
+      >
         <a href="https://emanatesummit.com" target="_blank">
           <img src='../assets/images/projects/emanate.png'/>
           <div class="project-inner">
@@ -21,7 +26,10 @@
           </div>
         </a>
       </div>
-      <div class="project project-two">
+      <div 
+        data-aos="fade-up" 
+        class="project project-two"
+      >
         <a
           href="https://travisfrazier.github.io/flashcards-vue/"
           target="_blank"
@@ -39,7 +47,10 @@
           </div>
         </a>
       </div>
-      <div class="project project-two">
+      <div 
+        data-aos="fade-left" 
+        class="project project-two"
+      >
         <a href="https://codepen.io/travisfrazier/full/bKyzep/" target="_blank">
           <img src='../assets/images/projects/weather.png' />
           <div class="project-inner">
@@ -54,7 +65,10 @@
           </div>
         </a>
       </div>
-      <div class="project project-two">
+      <div 
+        data-aos="fade-right" 
+        class="project project-two"
+      >
         <a href="https://reactlistapp.netlify.com" target="_blank">
           <img src='../assets/images/projects/list.png' />
           <div class="project-inner">
@@ -69,7 +83,10 @@
           </div>
         </a>
       </div>
-      <div class="project project-two">
+      <div 
+        data-aos="fade-down" 
+        class="project project-two"
+      >
         <a href="https://themimosasnailbar.com" target="_blank">
           <img src='../assets/images/projects/mimosas-new.png' />
           <div class="project-inner">
@@ -85,7 +102,10 @@
           </div>
         </a>
       </div>
-      <div class="project project-two">
+      <div 
+        data-aos="fade-left" 
+        class="project project-two"
+      >
         <a href="https://movie-sales.netlify.com/" target="_blank">
           <img src='../assets/images/projects/sales.png' />
           <div class="project-inner">
@@ -100,7 +120,10 @@
           </div>
         </a>
       </div>
-      <div class="project project-two">
+      <div 
+        data-aos="fade-right" 
+        class="project project-two"
+      >
         <a href="https://queensboro.com" target="_blank">
           <img src='../assets/images/projects/queensboro.png' />
           <div class="project-inner">
@@ -115,7 +138,10 @@
           </div>
         </a>
       </div>
-      <div class="project project-two">
+      <div 
+        data-aos="fade-up" 
+        class="project project-two"
+      >
         <a href="https://travisfrazier.github.io/vue-drum-pad/" target="_blank">
           <img src='../assets/images/projects/mpc-kit.png' />
           <div class="project-inner">
@@ -130,7 +156,10 @@
           </div>
         </a>
       </div>
-      <div class="project project-two">
+      <div 
+        data-aos="fade-left" 
+        class="project project-two"
+      >
         <a href="https://travisfrazier.github.io/matchgame/" target="_blank">
           <img src='../assets/images/projects/guess.png' />
           <div class="project-inner">

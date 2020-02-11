@@ -1,6 +1,8 @@
 <template>
     <section id="contact">
-    <h2>Let's Chat</h2>
+    <div class="section-heading">
+      <h2>Let's Chat</h2>
+    </div>
     <p class="relocate">
       I'm currently based in San Diego, CA and I'm available for full-time work.
     </p>

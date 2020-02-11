@@ -30,12 +30,12 @@
         </nav>
         <div class="layer" />
         <p>
-          Hello, My name is <strong class="name">Travis Frazier</strong> and
+          Hello, My name is <strong class="name">Travis Frazier</strong> and I'm a
         </p>
         <h1>
-          <strong>I'M A FRONT-END WEB DEVELOPER</strong>
+          <strong>FRONT-END WEB DEVELOPER</strong>
         </h1>
-        <p>creating modern and responsive design for web and mobile.</p>
+        <p>creating modern and responsive web experiences.</p>
         <div class="social-links">
           <a href="https://www.instagram.com/travfrazier/">
             <i class="fa fa-instagram" />
@@ -56,6 +56,8 @@
       </header>
 </template>
 
+
+
 <script>
 export default {
   name: "Header",
@@ -67,6 +69,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  //letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 header {
   background-image: url('../assets/images/laptop.jpg');
   background-size: cover;
@@ -161,17 +185,18 @@ header {
     width: 100%;
     text-align: center;
     color: #f5f5f5;
-    font-size: 4rem;
+    font-size: 5vw;
     margin: 0.25rem 0rem;
     padding-top: 0rem;
     @media only screen and (max-width: 812px) {
-      font-size: 2.4rem;
-      width: 90%;
+      //font-size: 2.4rem;
+      font-size: 6vw;
+      width: 95%;
     }
   }
   p {
     z-index: 1;
-    font-size: 1.5rem;
+    font-size: 1.75vw;
     color: #f5f5f5;
     @media only screen and (max-width: 812px) and (min-width: 415px) {
       margin: 0.25rem;
@@ -179,7 +204,7 @@ header {
     @media only screen and (max-width: 600px) {
       font-size: 1.25rem;
       text-align: center;
-      width: 90%;
+      width: 95%;
     }
   }
   .social-links {

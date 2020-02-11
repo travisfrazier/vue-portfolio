@@ -6,6 +6,7 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
+  //overflow-x: hidden;
 }
 h1,
 h2,
@@ -14,11 +15,19 @@ h4 {
   font-family: 'Kalam', cursive;
 }
 
+
+
+.section-heading {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
 h2 {
   margin-top: 0rem;
-  font-size: 2.5rem;
+  font-size: 6rem;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   padding-top: 5rem;
 }
 
