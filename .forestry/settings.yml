@@ -7,19 +7,15 @@ sections:
 - type: document
   path: data/intro.json
   label: Intro Section
-  match: "**/*"
 - type: document
   path: data/about.json
   label: About Section
-  match: "**/*"
 - type: document
   path: data.projects.json
   label: Projects Section
-  match: "**/*"
 - type: document
   path: data/contact.json
   label: Contact Section
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
