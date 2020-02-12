@@ -8,7 +8,7 @@
         <img class="profile-img" src='../assets/images/new-me.jpg' />
         <div class="about-description">
           <p>
-            I am <ins>Travis Frazier</ins>. Front-end Developer. Musician.
+            I am <ins>Travis FRAZIER</ins>. Front-end Developer. Musician.
             Traveler. Hardcore adventurer. Devoted husband. Pretend Marine
             Biologist.
           </p>
