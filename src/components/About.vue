@@ -2,7 +2,7 @@
   <section class="about-me section" id="about">
     <div class="about-me-content">
       <div class="section-heading">
-        <h2>About Me</h2>
+        <h2>{{ settings.title }}</h2>
       </div>
       <div class="about-content">
         <img class="profile-img" src='../assets/images/new-me.jpg' />
@@ -39,9 +39,19 @@
   </section>
 </template>
 
+
+
 <script>
 export default {
-  name: 'About'
+  name: 'About',
+  data() {
+    return {
+      settings: require("../../data/about.json")
+    }
+  },
+  props: {
+    title: String
+  }
 };
 </script>
 
