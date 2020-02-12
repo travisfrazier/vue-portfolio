@@ -9,7 +9,7 @@ collections:
   - name: "sections"
     label: "Sections"
     files:
-      - file: "sections/about/index.md"
+      - file: "src/sections/about/index.md"
         label: "About"
         name: "about"
         fields:
