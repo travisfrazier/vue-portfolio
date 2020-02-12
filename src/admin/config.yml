@@ -6,10 +6,20 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "about"
-    label: "About"
-    folder: "sections"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
+  - name: "sections"
+    label: "Sections"
+    files:
+      - file: "sections/about/index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-section"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "sections/projects/index.md"
+        label: "Projects"
+        name: "projects"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "projects-section"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
