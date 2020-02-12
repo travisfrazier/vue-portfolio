@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: travisfrazier/vue-portfolio
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "about"
+    label: "About"
+    folder: "sections"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
