@@ -5,7 +5,7 @@
         <h2>{{ settings.section_title }}</h2>
       </div>
       <div class="about-content">
-        <img class="profile-img" src='settings.profile_img' />
+        <img class="profile-img" src="`{{settings.profile_img}}`" />
         <div class="about-description">
           <p>
             I am <ins>Travis FRAZIER</ins>. Front-end Developer. Musician.
