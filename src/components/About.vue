@@ -2,7 +2,7 @@
   <section class="about-me section" id="about">
     <div class="about-me-content">
       <div class="section-heading">
-        <h2>{{ settings.title }}</h2>
+        <h2>{{ settings.section_title }}</h2>
       </div>
       <div class="about-content">
         <img class="profile-img" src='settings.profile_img' />

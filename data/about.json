@@ -1,5 +1,5 @@
 {
-    "title": "About Me",
+    "section_title": "About Me",
     "bio": "I am Travis Frazier. Front-end Developer. Musician. Traveler. Hardcore adventurer. Devoted husband. Pretend Marine Biologist.",
-    "profile_img": "/uploads/me.jpg"
+    "profile_image": "/uploads/me.jpg"
 }
